@@ -15,6 +15,7 @@ import Shop from './routes/shop/shop.component'
 import Checkout from './routes/checkout/checkout.component'
 
 import { setCurrentUser } from './store/user/user.action'
+import { setCategoriesMap } from './store/categories/category.action'
 
 const App = () => {
 	const dispatch = useDispatch()
